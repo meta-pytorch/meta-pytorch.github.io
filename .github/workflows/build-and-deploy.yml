@@ -11,20 +11,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-docs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
-          cache: pip
+          python-version: '3.10'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: uv pip install --system -r requirements.txt
 
       - name: Build site
         run: make html
@@ -35,12 +36,12 @@ jobs:
           name: site-build
           path: build/html
 
-  upload-preview:
+  doc-preview:
     runs-on: linux.2xlarge
-    needs: build
-    if: github.event_name == 'pull_request'
+    needs: build-docs
+    if: ${{ github.event_name == 'pull_request' }}
     steps:
-      - name: Download build artifact
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: site-build
@@ -59,11 +60,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    needs: build
+    needs: build-docs
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           ref: gh-pages
           persist-credentials: true
