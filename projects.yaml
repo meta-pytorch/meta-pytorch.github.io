@@ -1,0 +1,170 @@
+# ============================================================================
+# Meta-PyTorch Projects
+# ============================================================================
+#
+# This file is the SINGLE SOURCE OF TRUTH for all project data on the site.
+# Both the project cards and the cross-project search index are generated
+# from this file.
+#
+# To add a new project, copy an existing entry and fill in the fields.
+# Then run:  make html   (generate.py runs automatically before the build)
+#
+# Required fields:
+#   id          - Unique short name (lowercase, used as key)
+#   title       - Display name
+#   repo        - GitHub repo name under meta-pytorch org
+#   category    - Category label (e.g. "RL", "Distributed", "Training", "Data")
+#   description - One-line project description
+#
+# Optional fields:
+#   docs        - Full docs URL (defaults to https://meta-pytorch.org/<repo>/)
+#   keywords    - Space-separated search keywords
+#   pages       - List of sub-pages for search (title, url, content)
+# ============================================================================
+
+- id: openenv
+  title: OpenEnv
+  repo: OpenEnv
+  category: RL
+  description: >-
+    An open spec and hub for reinforcement learning environments.
+  docs: https://meta-pytorch.org/OpenEnv/
+  keywords: >-
+    reinforcement learning environments RL environment hub Gymnasium API
+    reset step StepResult observation reward agentic AI Docker
+    GRPO RL with LLMs openenv-core Hugging Face
+  pages:
+    - title: OpenEnv Documentation
+      url: https://meta-pytorch.org/OpenEnv/
+      content: Full documentation for OpenEnv, an open spec and hub for reinforcement learning environments
+    - title: OpenEnv QuickStart
+      url: https://meta-pytorch.org/OpenEnv/quickstart/
+      content: Getting started with OpenEnv, installation, quickstart guide
+    - title: OpenEnv GitHub
+      url: https://github.com/meta-pytorch/OpenEnv
+      content: Source code, issues, and contributions for OpenEnv
+    - title: OpenEnv on Hugging Face
+      url: https://huggingface.co/openenv
+      content: Browse and share RL environments on the Hugging Face Hub
+
+- id: monarch
+  title: Monarch
+  repo: monarch
+  category: Distributed
+  description: >-
+    A distributed execution engine for PyTorch workloads.
+  docs: https://meta-pytorch.org/monarch/
+  keywords: >-
+    distributed execution engine single controller actor framework
+    ProcMesh ActorMesh DeviceMesh Hyperactor fault tolerance PAFT
+    cluster orchestration torchmonarch Ray alternative TorchTitan
+    TorchFT SLURM Kubernetes parallelism
+  pages:
+    - title: Monarch Documentation
+      url: https://meta-pytorch.org/monarch/
+      content: Full documentation for Monarch distributed execution engine
+    - title: Monarch Installation
+      url: https://meta-pytorch.org/monarch/installation.html
+      content: How to install Monarch, prerequisites, pip install, setup guide
+    - title: Monarch Actors
+      url: https://meta-pytorch.org/monarch/actors.html
+      content: Actor framework with @endpoint decorator for remote-callable methods
+    - title: Monarch GitHub
+      url: https://github.com/meta-pytorch/monarch
+      content: Source code, issues, and contributions for Monarch
+
+- id: torchforge
+  title: TorchForge
+  repo: torchforge
+  category: RL
+  description: >-
+    A PyTorch-native agentic reinforcement learning library.
+  docs: https://meta-pytorch.org/torchforge/
+  keywords: >-
+    agentic reinforcement learning agentic RL PyTorch native RL library
+    RL algorithms sequential decision making agent-based
+  pages:
+    - title: TorchForge Documentation
+      url: https://meta-pytorch.org/torchforge/
+      content: Documentation for TorchForge agentic RL library
+    - title: TorchForge GitHub
+      url: https://github.com/meta-pytorch/torchforge
+      content: Source code, issues, and contributions for TorchForge
+
+- id: torchcomms
+  title: TorchComms
+  repo: torchcomms
+  category: Distributed
+  description: >-
+    Communication primitives for distributed PyTorch training.
+  docs: https://meta-pytorch.org/torchcomms/
+  keywords: >-
+    torchcomms communication primitives distributed training split_group
+    DeviceMesh AllGather AllToAll AllReduce NCCLX RCCL NCCL Gloo comms pool
+    RDMA expandable segments A2Adedup one-sided communication
+    GPU communication collective operations send receive Llama
+  pages:
+    - title: TorchComms Documentation
+      url: https://meta-pytorch.org/torchcomms/
+      content: API documentation and getting started guide for TorchComms
+    - title: TorchComms API Reference
+      url: https://meta-pytorch.org/torchcomms/main/api.html
+      content: TorchComms API reference, communication primitives, split_group, AllGather, AllToAll, AllReduce
+    - title: TorchComms Getting Started
+      url: https://meta-pytorch.org/torchcomms/main/getting_started.html
+      content: Getting started with TorchComms, installation, setup, usage examples
+    - title: TorchComms Blog Post
+      url: https://pytorch.org/blog/torchcomms/
+      content: "Introducing TorchComms: next-generation communication primitives for PyTorch"
+    - title: TorchComms GitHub
+      url: https://github.com/meta-pytorch/torchcomms
+      content: Source code, issues, and contributions for TorchComms
+
+- id: torchrec
+  title: TorchRec
+  repo: torchrec
+  category: Training
+  description: >-
+    Domain library for recommendation systems, including distributed
+    embedding tables and data pipelining.
+  docs: https://meta-pytorch.org/torchrec/
+  keywords: >-
+    recommendation systems distributed embedding tables embedding sharding
+    model parallelism DMP DistributedModelParallel EmbeddingBagCollection
+    EmbeddingCollection KeyedJaggedTensor KJT data pipelining DLRM
+    sparse features FBGEMM sharding planner all2all pooled sequence
+    embeddings TrainPipeline
+  pages:
+    - title: TorchRec Documentation
+      url: https://meta-pytorch.org/torchrec/
+      content: Full documentation for TorchRec recommendation systems library
+    - title: TorchRec Introduction Tutorial
+      url: https://pytorch.org/tutorials/intermediate/torchrec_intro_tutorial.html
+      content: "Introduction to TorchRec: distributed embeddings, KeyedJaggedTensor, DistributedModelParallel"
+    - title: TorchRec Sharding Tutorial
+      url: https://pytorch.org/tutorials/advanced/sharding.html
+      content: "Sharding strategies for embedding tables: table-wise, row-wise, column-wise"
+    - title: TorchRec GitHub
+      url: https://github.com/meta-pytorch/torchrec
+      content: Source code, issues, and contributions for TorchRec
+
+- id: torchcodec
+  title: TorchCodec
+  repo: torchcodec
+  category: Data
+  description: >-
+    Fast, hardware-accelerated video and audio decoding with native
+    PyTorch tensor output.
+  docs: https://meta-pytorch.org/torchcodec/
+  keywords: >-
+    VideoDecoder AudioDecoder VideoEncoder video decoding audio decoding
+    GPU video encoding CUDA video decoding hardware accelerated FFmpeg
+    video tensor NVENC encoding streaming video decoding media processing
+    video frames audio streams
+  pages:
+    - title: TorchCodec Documentation
+      url: https://meta-pytorch.org/torchcodec/
+      content: Full documentation for TorchCodec video and audio processing library
+    - title: TorchCodec GitHub
+      url: https://github.com/meta-pytorch/torchcodec
+      content: Source code, issues, and contributions for TorchCodec

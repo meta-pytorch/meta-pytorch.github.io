@@ -1,0 +1,4 @@
+sphinx>=7.0
+pytorch_sphinx_theme2==0.4.4
+myst-parser
+pyyaml

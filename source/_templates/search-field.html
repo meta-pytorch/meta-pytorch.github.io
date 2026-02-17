@@ -1,0 +1,18 @@
+{# Custom search field with Lunr.js-powered cross-project search #}
+<script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+<script>window.__searchIndexURL = "{{ pathto('_static/search-index.json', 1) }}";</script>
+<script src="{{ pathto('_static/js/search.js', 1) }}"></script>
+<form class="bd-search d-flex align-items-center"
+      action="#"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         id="search-input"
+         placeholder="Search all projects…"
+         aria-label="Search all meta-pytorch projects"
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+</form>
