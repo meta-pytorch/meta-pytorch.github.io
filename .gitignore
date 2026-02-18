@@ -1,0 +1,11 @@
+build/
+_build/
+*.pyc
+__pycache__/
+.DS_Store
+*.egg-info/
+.env
+
+# Generated at build time by generate.py
+source/_static/projects.json
+source/_static/search-index.json
