@@ -107,6 +107,13 @@ html[data-theme="dark"] .hero-search:focus-within {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+/* Constrain content width on no-sidebar (landing) pages */
+.bd-sidebar-primary.hide-on-wide ~ .bd-main .bd-content .bd-article-container {
+  max-width: 1260px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Hide the Sphinx-generated h1 since the hero has its own */
 .bd-article > section > h1 {
   display: none;
@@ -122,9 +129,16 @@ html[data-theme="dark"] .hero-search:focus-within {
 /* ---- Project grid ---- */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.25rem;
   margin-top: 1rem;
+}
+
+/* 4 columns once the container is wide enough */
+@media (min-width: 960px) {
+  .project-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* ---- Project card ---- */
@@ -144,7 +158,7 @@ html[data-theme="dark"] .hero-search:focus-within {
 
 .project-card p {
   margin: 0 0 1rem 0;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
   color: var(--pst-color-text-muted);
   line-height: 1.5;
   flex-grow: 1;
