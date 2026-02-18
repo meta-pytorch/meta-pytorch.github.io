@@ -1,0 +1,1197 @@
+[
+  {
+    "id": "openenv",
+    "title": "OpenEnv",
+    "category": "RL",
+    "description": "An open spec and hub for reinforcement learning environments.",
+    "keywords": "reinforcement learning environments RL environment hub Gymnasium API reset step StepResult observation reward agentic AI Docker GRPO RL with LLMs openenv-core Hugging Face",
+    "url": "https://meta-pytorch.org/OpenEnv/",
+    "pages": [
+      {
+        "title": "OpenEnv Documentation",
+        "url": "https://meta-pytorch.org/OpenEnv/",
+        "content": "Full documentation for OpenEnv, an open spec and hub for reinforcement learning environments"
+      },
+      {
+        "title": "OpenEnv QuickStart",
+        "url": "https://meta-pytorch.org/OpenEnv/quickstart/",
+        "content": "Getting started with OpenEnv, installation, quickstart guide"
+      },
+      {
+        "title": "OpenEnv GitHub",
+        "url": "https://github.com/meta-pytorch/OpenEnv",
+        "content": "Source code, issues, and contributions for OpenEnv"
+      },
+      {
+        "title": "OpenEnv on Hugging Face",
+        "url": "https://huggingface.co/openenv",
+        "content": "Browse and share RL environments on the Hugging Face Hub"
+      },
+      {
+        "title": "What is OpenEnv? - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Auto-Discovery API - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/auto-discovery/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "CLI - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/cli/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Contributing Environments - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/contributing-envs/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Core - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/core/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Customizing the Web UI - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/customizing-web-ui/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Building an Environment - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environment-builder/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Environments - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Quick Start - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/quickstart/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Atari - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/atari/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Browsergym - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/browsergym/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Chat - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/chat/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Chess Environment - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/chess/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Coding - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/coding/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "DIPG Safety Environment (DIPGSafetyEnv) - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/dipg/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Dm control - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/dm-control/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Echo - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/echo/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Finqa - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/finqa/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "FinRL Environment - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/finrl/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Git Environment - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/git/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Julia - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/julia/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "kernrl - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/kernrl/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Maze - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/maze/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Openapp - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/openapp/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Openspiel - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/openspiel/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Reasoning gym - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/reasoning_gym/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Repl - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/repl/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Snake - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/snake/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "SUMO-RL Environment - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/sumo/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Tbench2 - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/tbench2/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Textarena - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/textarena/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Unity - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/unity/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Websearch - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/websearch/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Wildfire - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/environments/wildfire/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "OpenEnv Tutorial - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/tutorials/openenv-tutorial/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      },
+      {
+        "title": "Wordle GRPO with TRL - OpenEnv Documentation",
+        "url": "https://meta-pytorch.github.io/OpenEnv/tutorials/wordle-grpo/",
+        "content": "Official documentation for the OpenEnv agentic execution framework"
+      }
+    ]
+  },
+  {
+    "id": "monarch",
+    "title": "Monarch",
+    "category": "Distributed",
+    "description": "A distributed execution engine for PyTorch workloads.",
+    "keywords": "distributed execution engine single controller actor framework ProcMesh ActorMesh DeviceMesh Hyperactor fault tolerance PAFT cluster orchestration torchmonarch Ray alternative TorchTitan TorchFT SLURM Kubernetes parallelism",
+    "url": "https://meta-pytorch.org/monarch/",
+    "pages": [
+      {
+        "title": "Monarch Documentation",
+        "url": "https://meta-pytorch.org/monarch/",
+        "content": "Full documentation for Monarch distributed execution engine"
+      },
+      {
+        "title": "Monarch Installation",
+        "url": "https://meta-pytorch.org/monarch/installation.html",
+        "content": "How to install Monarch, prerequisites, pip install, setup guide"
+      },
+      {
+        "title": "Monarch Actors",
+        "url": "https://meta-pytorch.org/monarch/actors.html",
+        "content": "Actor framework with @endpoint decorator for remote-callable methods"
+      },
+      {
+        "title": "Monarch GitHub",
+        "url": "https://github.com/meta-pytorch/monarch",
+        "content": "Source code, issues, and contributions for Monarch"
+      },
+      {
+        "title": "Python API - Monarch",
+        "url": "https://meta-pytorch.org/monarch/api/index.html",
+        "content": "The actor API for monarch is accessed through the monarch.actor package. The monarch package contains APIs related to computing with distributed tensors. The monarch.job package provides a declarat..."
+      },
+      {
+        "title": "monarch",
+        "url": "https://meta-pytorch.org/monarch/api/monarch.html",
+        "content": "These API functions define monarch\u2019s distributed tensor computation API. See Distributed Tensors in Monarch for an overview. Types: Distributed Computing: Simulation: Builtins: Builtins for Monarch..."
+      },
+      {
+        "title": "monarch.actor - Monarch",
+        "url": "https://meta-pytorch.org/monarch/api/monarch.actor.html",
+        "content": "The monarch.actor module provides the actor-based programming model for distributed computation. See Getting Started for an overview. Creating Actors: Actors are created on multidmensional meshes o..."
+      },
+      {
+        "title": "monarch.config - Monarch",
+        "url": "https://meta-pytorch.org/monarch/api/monarch.config.html",
+        "content": "The monarch.config module provides utilities for managing Monarch\u2019s runtime configuration. Configuration values can be set programmatically via configure() or configured(), or through environment v..."
+      },
+      {
+        "title": "monarch.job - Monarch",
+        "url": "https://meta-pytorch.org/monarch/api/monarch.job.html",
+        "content": "The monarch.job module provides a declarative interface for managing distributed job resources. Jobs abstract away the details of different schedulers (SLURM, local execution, etc.) and provide a u..."
+      },
+      {
+        "title": "monarch.rdma - Monarch",
+        "url": "https://meta-pytorch.org/monarch/api/monarch.rdma.html",
+        "content": "The monarch.rdma module provides Remote Direct Memory Access (RDMA) support for high-performance networking and zero-copy data transfers between processes. See the Point-to-Point RDMA guide for an ..."
+      },
+      {
+        "title": "monarch.spmd - Monarch",
+        "url": "https://meta-pytorch.org/monarch/api/monarch.spmd.html",
+        "content": "The monarch.spmd module provides primitives for running torchrun-style SPMD (Single Program Multiple Data) distributed training scripts over Monarch actor meshes. It bridges PyTorch distributed tra..."
+      },
+      {
+        "title": "Books - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/books.html",
+        "content": "This section contains books and comprehensive guides for Monarch. HyperActor Book: The HyperActor Book provides a comprehensive guide to using the actor system in Monarch."
+      },
+      {
+        "title": "Hyperactor Documentation Book - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/README.html",
+        "content": "This is the development documentation for the hyperactor system, built using mdBook. Contents: Hyperactor- Actors, Macros, Channels, Mailboxes and Routers, References, Appendix, Summary.. Running t..."
+      },
+      {
+        "title": "Summary - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/SUMMARY.html",
+        "content": "Introduction, References- Syntax, WorldId, ProcId, ActorId, PortId, GangId, Reference, Typed References., Mailboxes and Routers- Ports, MailboxSender, Reconfigurable Senders, MailboxServer, Mailbox..."
+      },
+      {
+        "title": "The Actor Trait - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/actor.html",
+        "content": "The Actor trait defines the core behavior of all actors in the hyperactor runtime. Every actor type must implement this trait to participate in the system. It defines how an actor is constructed, i..."
+      },
+      {
+        "title": "ActorHandle<A> - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/actor_handle.html",
+        "content": "An ActorHandle<A> is a reference to a local, running actor of type A. It provides access to the actor\u2019s messaging ports, lifecycle status, and control methods (such as stop signals). Unlike r..."
+      },
+      {
+        "title": "Actor Lifecycle Types - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/actor_lifecycle.html",
+        "content": "This page documents auxiliary types used in actor startup, shutdown, and supervision logic. ActorStatus: ActorStatus describes the current runtime state of an actor. It is used to monitor progress,..."
+      },
+      {
+        "title": "Binds - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/binds.html",
+        "content": "The Binds trait defines how an actor\u2019s ports are associated with the message types it can receive remotely. Implementing Binds<A> allows the system to determine which messages can be routed t..."
+      },
+      {
+        "title": "Checkpointable - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/checkpointable.html",
+        "content": "The Checkpointable trait enables an actor to define how its internal state can be saved and restored. This allows actors to participate in checkpointing and recovery mechanisms when supported by th..."
+      },
+      {
+        "title": "The Handler Trait - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/handler.html",
+        "content": "The Handler trait defines how an actor receives and responds to messages of a specific type. Each message type that an actor can handle must be declared by implementing this trait. The runtime invo..."
+      },
+      {
+        "title": "Actors - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/index.html",
+        "content": "Hyperactor programs are structured around actors: isolated state machines that process messages asynchronously. Each actor runs in isolation, and maintains private internal state. Actors interact w..."
+      },
+      {
+        "title": "Referable - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/referable.html",
+        "content": "This is a marker trait indicating that a type is eligible to serve as a reference to a remote actor (i.e., an actor that may reside on a different proc). It requires: Named: the type must provide a..."
+      },
+      {
+        "title": "Remote Registry - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/remote.html",
+        "content": "The hyperactor::actor::remote module provides the process-local registry for remote-spawnable actors. It is the counterpart to RemoteSpawn: given actor types that implement RemoteSpawn and are regi..."
+      },
+      {
+        "title": "RemoteHandles - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/remote_handles.html",
+        "content": "The RemoteHandles<M> trait is a marker used to declare that a given Referable type can handle messages of type M. An implementation like: means that ShoppingListActor is known to handle the S..."
+      },
+      {
+        "title": "The RemoteSpawn Trait - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/actors/remote_spawn.html",
+        "content": "The RemoteSpawn trait marks an actor type as spawnable across process boundaries. It enables hyperactor\u2019s remote spawning and registration system, allowing actors to be created from serialized para..."
+      },
+      {
+        "title": "Appendix - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/appendix/index.html",
+        "content": "Appendix- Typed Message Lifecycle.."
+      },
+      {
+        "title": "Typed Message Lifecycle: Zero-Copy Serialization, Framing, and Cancel-Safe I/O - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/appendix/lifecycle.html",
+        "content": "Serialization (Typed \u2192 Logical Wire Format): Input: A typed message M(struct, enum, etc.) which may include Part fields for large binary blobs., Process:- Walk M with a custom Serialize impl.- Run ..."
+      },
+      {
+        "title": "Channel Addresses - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/addresses.html",
+        "content": "Channel addresses ( ChannelAddr) identify endpoints and encode transport type (tcp, unix, local, sim, etc.)."
+      },
+      {
+        "title": "Frames - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/frames.html",
+        "content": "Frames define the wire format for channel messages: a single-stream, length-prefixed protocol that carries a serialized, multipart message per frame. Each frame is: where the 8-byte prefix declares..."
+      },
+      {
+        "title": "Channels - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/index.html",
+        "content": "Channels provide one-way, typed message passing between processes. They abstract over multiple transports while offering a uniform Tx/Rx API. The following pages explore the key aspects of channels..."
+      },
+      {
+        "title": "Transports - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports.html",
+        "content": "Different transports implement the channel abstraction: Local (in-process), Tcp, Unix, MetaTls, and Simulated."
+      },
+      {
+        "title": "Transports - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports/index.html",
+        "content": "Channels abstract over multiple underlying transports. Each transport implements the same Tx<M>/ Rx<M> traits, but differs in how messages are carried. All transports share the same fra..."
+      },
+      {
+        "title": "Local Transport - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports/local.html",
+        "content": "transport: local \u2014 implements Tx/Rx directly (in-process tokio::sync::mpsc). no network framing or acks. address syntax: local:<id> \u2014 serving with local:0 chooses any available id. dial / ser..."
+      },
+      {
+        "title": "MetaTLS Transport - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports/metatls.html",
+        "content": "transport: metatls \u2014 TCP wrapped in TLS ( tokio-rustls), with the same framing/ack semantics as TCP. address syntax: metatls:HOST:PORT dial / serve: ChannelAddr::MetaTls(host, port), metatls::dial:..."
+      },
+      {
+        "title": "Sim Transport - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports/sim.html",
+        "content": "transport: sim \u2014 simulation transport for testing; mirrors channel semantics without real sockets. address syntax: sim:<inner-addr>(wraps a concrete inner transport address) dial / serve: Cha..."
+      },
+      {
+        "title": "TCP Transport - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports/tcp.html",
+        "content": "transport: tcp \u2014 length-prefixed frames over tokio::net::TcpStream; uses seq/ ack for exactly-once delivery into the server\u2019s queue; reconnects with exponential backoff. address syntax: tcp:HOST:PO..."
+      },
+      {
+        "title": "Unix Transport - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/transports/unix.html",
+        "content": "transport: unix \u2014 Unix domain sockets; same framing/ack semantics as TCP. address syntax: unix:/path/to/socket(filesystem path), unix:@name(Linux abstract namespace). dial / serve: unix::dial::<..."
+      },
+      {
+        "title": "Transmits and Receives - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/channels/tx_rx.html",
+        "content": "Transmit ( Tx) and receive ( Rx) ends define the basic channel interface. Tx can post or send messages, Rx can asynchronously receive them. Overview: Channels provide one-way, typed communication b..."
+      },
+      {
+        "title": "Hyperactor - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/introduction.html",
+        "content": "This book describes the design and implementation of the hyperactor runtime. The goal is to provide a clear, structured explanation of how actors communicate safely and efficiently across distribut..."
+      },
+      {
+        "title": "behavior! - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/behavior.html",
+        "content": "The behavior! macro defines a type which represents an actor that handles a set of messages. Behaviors allows you to define and hand out stable or restricted APIs without tying clients to the full ..."
+      },
+      {
+        "title": "#[export] - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/export.html",
+        "content": "The#[hyperactor::export] macro turns a regular Actor implementation into a remotely spawnable actor, registering its type information, spawn function, and supported message handlers for discovery a..."
+      },
+      {
+        "title": "#[forward] - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/forward.html",
+        "content": "The#[hyperactor::forward] macro connects a user-defined handler trait implementation (like ShoppingListHandler) to the core Handler<T> trait required by the runtime. In short, it generates th..."
+      },
+      {
+        "title": "#[derive(HandleClient)] - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/handle_client.html",
+        "content": "#[derive(Handler)] generates both the server-side handler trait ( ShoppingListHandler) and the client-side trait definition ( ShoppingListClient). However, it does not implement the client trait fo..."
+      },
+      {
+        "title": "#[derive(Handler)] - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/handler.html",
+        "content": "The#[derive(Handler)] macro generates the infrastructure for sending and receiving typed messages in hyperactor. This can be applied to an enum or a struct. Structs can be generic and non-generic. ..."
+      },
+      {
+        "title": "Macros - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/index.html",
+        "content": "This section documents the macros provided by hyperactor for actor and message integration. These macros support a complete message-passing workflow: from defining message enums and generating clie..."
+      },
+      {
+        "title": "#[derive(Named)] - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/named.html",
+        "content": "The#[derive(Named)] macro implements the typeuri::Named trait for a type, making it identifiable at runtime through a globally unique string and stable hash. The Named trait: The typeuri::Named tra..."
+      },
+      {
+        "title": "#[derive(RefClient)] - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/ref_client.html",
+        "content": "While#[derive(HandleClient)] enables calling the generated client trait on ActorHandle<T>, there are cases where you don\u2019t have a handle, only a reference to an actor ( ActorRef<T>). Th..."
+      },
+      {
+        "title": "Delivery Semantics - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/delivery.html",
+        "content": "This section defines the mechanics of message delivery and failure in the mailbox system. Key components: MessageEnvelope: encapsulates a message, sender, and destination, DeliveryError: enumerates..."
+      },
+      {
+        "title": "Mailboxes and Routers - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/index.html",
+        "content": "Mailboxes are the foundation of message delivery in hyperactor. They coordinate typed ports, routing logic, forwarding, and delivery infrastructure for distributed actors. This chapter introduces t..."
+      },
+      {
+        "title": "Mailbox - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/mailbox.html",
+        "content": "A Mailbox represents an actor\u2019s in-process inbox. It owns and manages all of the actor\u2019s ports, provides APIs to open and bind them, and routes messages based on their destination PortId. A mailbox..."
+      },
+      {
+        "title": "MailboxClient - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/mailbox_client.html",
+        "content": "A MailboxClient is the sending counterpart to a MailboxServer. It owns a buffer of outgoing messages and transmits them over a channel::Tx interface to a remote server. The client handles undeliver..."
+      },
+      {
+        "title": "MailboxSender - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/mailbox_sender.html",
+        "content": "MailboxSender is a trait that abstracts the ability to deliver MessageEnvelope s. Anything that implements MailboxSender can act as a message sink\u2014whether it\u2019s a local Mailbox, a forwarding proxy, ..."
+      },
+      {
+        "title": "MailboxServer - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/mailbox_server.html",
+        "content": "A MailboxServer listens for incoming MessageEnvelope s from an external source and posts them into a mailbox using the MailboxSender trait. This section describes: The MailboxServer trait and its s..."
+      },
+      {
+        "title": "Multiplexers - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/multiplexer.html",
+        "content": "Muxers(short for multiplexers) form the first level of indirection in the mailbox subsystem. While a Mailbox delivers messages to typed ports within a single actor, a MailboxMuxer delivers messages..."
+      },
+      {
+        "title": "Ports - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/ports.html",
+        "content": "Ports are the basic units of typed message delivery within a mailbox. Each port is a pair consisting of: a PortHandle<M>, used to send messages of type M, and, a PortReceiver<M>, used t..."
+      },
+      {
+        "title": "Reconfigurable Senders - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/reconfigurable_sender.html",
+        "content": "Some actors are constructed before the full messaging graph is available. For example, the ReconfigurableMailboxSender is used during MeshAgent::bootstrap to allow early creation of the Proc and ag..."
+      },
+      {
+        "title": "Routers - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/mailboxes/routers.html",
+        "content": "While a muxer dispatches messages to exact ActorId matches, a router generalizes this by routing messages to the nearest matching prefix. This enables hierarchical, prefix-based routing across clus..."
+      },
+      {
+        "title": "Host - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/procs/host.html",
+        "content": "A Host manages a collection of spawned procs and provides bidirectional routing between them. It serves as the entry point for external connections and coordinates message delivery across local and..."
+      },
+      {
+        "title": "Procs - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/procs/index.html",
+        "content": "A Proc is a container for actors and provides the runtime context for actor execution, message routing, and lifecycle management. In hyperactor\u2019s architecture, procs serve as the fundamental unit o..."
+      },
+      {
+        "title": "Proc - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/procs/proc.html",
+        "content": "A Proc is the fundamental container for actors in hyperactor. It provides the runtime context for actor execution and determines how messages are routed\u2014both inbound messages arriving at the proc f..."
+      },
+      {
+        "title": "ProcOrDial Router - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/procs/proc_or_dial.html",
+        "content": "ProcOrDial is a specialized router that bridges the service proc, local proc, and the DialMailboxRouter. It enables bidirectional routing in the Host by distinguishing between messages destined for..."
+      },
+      {
+        "title": "ActorId - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/actor_id.html",
+        "content": "An ActorId uniquely identifies an actor within a proc. It combines the proc the actor lives on, a string name, and a numeric pid (process-local instance index). The first field is the actor\u2019s ProcI..."
+      },
+      {
+        "title": "Bindings - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/bindings.html",
+        "content": ""
+      },
+      {
+        "title": "GangId - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/gang_id.html",
+        "content": "A GangId identifies a logical group of actors with the same name across all procs in a world. It serves as a convenient shorthand for referring to all root instances of a given actor name. The firs..."
+      },
+      {
+        "title": "Gangs - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/gangs.html",
+        "content": ""
+      },
+      {
+        "title": "References - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/index.html",
+        "content": "This section documents the reference system used throughout hyperactor to identify and communicate with distributed entities. References are lightweight, serializable identifiers for worlds, procs,..."
+      },
+      {
+        "title": "PortId - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/port_id.html",
+        "content": "A PortId identifies a specific port on a particular actor. Ports are the entry points through which messages are delivered to an actor, and each PortId is globally unique. The first field is the ow..."
+      },
+      {
+        "title": "ProcId - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/proc_id.html",
+        "content": "A ProcId identifies a single runtime instance. All actors exist within a proc, and message routing between actors is scoped by the proc\u2019s identity. Procs can be identified either by their rank with..."
+      },
+      {
+        "title": "Reference - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/reference.html",
+        "content": "The Reference enum is a type-erased, unified representation of all addressable entities in hyperactor. It provides a common format for parsing, logging, routing, and transport. Each variant wraps o..."
+      },
+      {
+        "title": "Syntax - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/syntax.html",
+        "content": "References in Hyperactor follow a uniform concrete syntax that can be written as strings, parsed at runtime, or constructed statically using the id! macro. String Form: The canonical string syntax ..."
+      },
+      {
+        "title": "Typed References - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/typed_refs.html",
+        "content": "Typed references are strongly typed wrappers over raw identifiers like ActorId and PortId. These types are used throughout hyperactor\u2019s APIs; as parameters in messages, return values from bind() me..."
+      },
+      {
+        "title": "WorldId - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/references/world_id.html",
+        "content": "A WorldId defines the top-level namespace for procs and actors. All procs, actors, ports, and gangs exist within a world. Construction: A WorldId wraps a string and can be created directly: Or stat..."
+      },
+      {
+        "title": "Hyperactor-mesh Book - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/README.html",
+        "content": "This is the development documentation for hyperactor-mesh, built using mdBook. Running the Book: On the Server: To run the book on a remote server (e.g., devgpu004): Then detach with Ctrl+b, then d..."
+      },
+      {
+        "title": "Summary - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/SUMMARY.html",
+        "content": "Meshes- Bootstrapping Overview- 1. Proc and instance, 2. Process allocator & v0 bootstrap, 3. HostMesh from an allocation, 4. Doing real work (hosts \u2192 procs \u2192 actors), Boostrapping from Python...."
+      },
+      {
+        "title": "Client Actor - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/client.html",
+        "content": "What it does: Aggregates or prints log lines from all remote procs (stdout/stderr), optionally buckets similar lines within a time window, and participates in a versioned sync-flush barrier so the ..."
+      },
+      {
+        "title": "Config & env - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/config.html",
+        "content": "Quick reference for the knobs that influence logging behavior. Defaults match the source in logging.rs. Knobs:,,,,,, Knob, Type & default, How to set, When it takes effect, Affects, Notes,,, HY..."
+      },
+      {
+        "title": "File aggregation - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/file-aggregation.html",
+        "content": "What it is: An optional, local file sink that mirrors each child\u2019s stdout/stderr into per-proc files on the bootstrap host. It\u2019s implemented by FileAppender plus a tiny writer task ( file_monitor_t..."
+      },
+      {
+        "title": "Forwarders - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/forwarder.html",
+        "content": "The LogForwardActor runs in every remote process of a ProcMesh. It is the in-band relay that receives per-proc logs over a hyperactor channel and forwards them to the client\u2019s LogClientActor, prese..."
+      },
+      {
+        "title": "Logging - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/index.html",
+        "content": "Monarch v1\u2019s logging subsystem streams stdout/ stderr from remote procs back to the client and lets Python control log delivery and levels. This section is written top-down: start with the big pict..."
+      },
+      {
+        "title": "Ordering - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/ordering.html",
+        "content": "What\u2019s guaranteed (and what isn\u2019t): Per proc, per stream. Within a single child\u2019s stdout stream (and separately within stderr), lines are read in order by the bootstrap and forwarded in that order...."
+      },
+      {
+        "title": "Logging - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/overview.html",
+        "content": "Python kickoff \u2192 Rust actors: High-level flow: Python ProcMesh boots and attaches a LoggingManager., On mesh init, Python asks Rust to spawn a logging stack via LoggingMeshClient.spawn(...)., Rust ..."
+      },
+      {
+        "title": "Python control surface - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/python.html",
+        "content": "What it exposes: A small, explicit API to start logging for a ProcMesh, stream remote stdout/stderr back to your notebook/REPL, tune aggregation & verbosity, and perform a versioned sync flush ..."
+      },
+      {
+        "title": "Stream Forwarders (bootstrap/host side) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/stream-forwarders.html",
+        "content": "The bootstrap side is responsible for capturing each child\u2019s stdout/stderr, teeing them locally, and shipping structured log lines to the child\u2019s in-band LogForwardActor over a hyperactor channel. ..."
+      },
+      {
+        "title": "Teardown - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/logging/teardown.html",
+        "content": "Always kick off a barrier flush before stopping the mesh., On child exit, tee observes EOF, forwards any partial line, and posts one last Flush(None)., StreamFwder::abort() stops the tee task and r..."
+      },
+      {
+        "title": "Process-backed hosts: BootstrapProcManager - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrap-proc-manager.html",
+        "content": ""
+      },
+      {
+        "title": "Appendix: bootstrap_canonical_simple - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-appendix-canonical-test.html",
+        "content": "This is the exact test from the codebase that the walkthrough above is unpacking."
+      },
+      {
+        "title": "\u00a74 Doing real work (hosts \u2192 procs \u2192 actors) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-doing-real-work.html",
+        "content": "We can now line up the rest of bootstrap_canonical_simple and see that the remaining calls are just \u201cuse the host we just created.\u201d Source we\u2019re explaining: was the part we just broke down in \u00a73 \u2014 ..."
+      },
+      {
+        "title": "\u00a75 Bootstrapping from Python - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-from-python.html",
+        "content": "So far we described the Rust side: there is a host, the host has a HostMeshAgent, and we send CreateOrUpdate<ProcSpec> etc. That\u2019s the control plane. Most users won\u2019t do that by hand \u2014 they\u2019l..."
+      },
+      {
+        "title": "\u00a73 HostMesh from an allocation (what HostMesh::allocate(...) actually does) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-hostmesh-from-allocation.html",
+        "content": "At this point we already have: a control-side proc + instance (from \u00a71),, a running allocation from the v0 ProcessAllocator(from \u00a72),, and we\u2019ve seen how the child executable comes up in Bootstrap:..."
+      },
+      {
+        "title": "Bootstrapping Overview - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-overview.html",
+        "content": "One sentence: the controller boots remote hosts, then spawns procs ( 1 proc = 1 OS process). Each host runs one HostMeshAgent; every proc runs its own ProcMeshAgent supervising that proc\u2019s user/ser..."
+      },
+      {
+        "title": "\u00a71 Proc and Instance (start from a Proc you control) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-proc-and-instance.html",
+        "content": "We begin in a process that can already run hyperactor code and create an instance: This gives us a proc + mailbox we can use to tell the mesh to do things. That\u2019s two separate things happening, so ..."
+      },
+      {
+        "title": "\u00a72 Process allocator & v0 bootstrap (get something that can spawn processes) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/bootstrapping-process-allocator.html",
+        "content": "2. Get something that can spawn processes: In the canonical v1 flow we need a thing in the parent that can say \u201cstart another OS process that will come up as a hyperactor proc/host and talk back to..."
+      },
+      {
+        "title": "Host & agents (control plane & mux) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/host-and-agents.html",
+        "content": "In the runtime, a host is the thing that owns \u201call the procs on this machine\u201d and gives them a single front door. The Rust type looks like this: Visually, you can think of it like this:* is the hos..."
+      },
+      {
+        "title": "Meshes - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/index.html",
+        "content": "This section explains the shape of meshes in v1 \u2014 hosts, procs, and actor meshes \u2014 and then shows how we bring them up (bootstrapping) from both Rust and Python. By \u201cmesh\u201d here we don\u2019t just mean \u201c..."
+      },
+      {
+        "title": "Error Handling by Supervision - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/mesh-supervision.html",
+        "content": "When you spawn procs and actors, you need to know when they encounter errors, and have a chance to recover from them. This process is called \u201csupervision\u201d, because the owner of the resource (meshes..."
+      },
+      {
+        "title": "Proc meshes & ProcMeshAgent - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/proc-mesh-and-agent.html",
+        "content": "What the ProcMeshAgent Is: Every proc in a mesh runs a ProcMeshAgent. It plays the same role on the proc side that the HostMeshAgent plays on the host side: it implements the control-plane interfac..."
+      },
+      {
+        "title": "Appendix: pytokio (Python/Rust async bridge) - Monarch",
+        "url": "https://meta-pytorch.org/monarch/books/hyperactor-mesh-book/src/meshes/pytokio-appendix.html",
+        "content": "pytokio: Monarch needs a way for Python code to kick off Rust futures and later await the result. pytokio.rs provides that. It does three things: lets Rust bundle up a future as a Python object ( P..."
+      },
+      {
+        "title": "Examples - Monarch",
+        "url": "https://meta-pytorch.org/monarch/examples/README.html",
+        "content": "ping_pong.py: Demonstrates the basics of Monarch\u2019s Actor/endpoint API with a ping-pong communication example, crawler.py: Demonstrates Monarch\u2019s actor API and many-to-one communications with a web ..."
+      },
+      {
+        "title": "DDP Examples - Monarch",
+        "url": "https://meta-pytorch.org/monarch/examples/ddp/README.html",
+        "content": "Examples demonstrating Distributed Data Parallel (DDP) training with Monarch."
+      },
+      {
+        "title": "Distributed Web Crawler - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/crawler.html",
+        "content": "This example demonstrates how to make a simplistic distributed web crawler with Monarch actors including: Creating a singleton QueueActor, Providing that QueueActor to multiple CrawlActors, Having ..."
+      },
+      {
+        "title": "DDP Examples - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/ddp/index.html",
+        "content": "Examples demonstrating Distributed Data Parallel (DDP) training with Monarch. DDP using SPMDActor SPMD Job Example DDP on Kubernetes"
+      },
+      {
+        "title": "DDP on Kubernetes - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/ddp/kubernetes_ddp.html",
+        "content": "This tutorial extends the DDP using SPMDActor tutorial to run PyTorch\u2019s Distributed Data Parallel (DDP) on Kubernetes using Monarch\u2019s SPMDActor and KubernetesJob. This example shows: How to provisi..."
+      },
+      {
+        "title": "DDP using SPMDActor - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/ddp/spmd_ddp.html",
+        "content": "This example demonstrates how to run PyTorch\u2019s Distributed Data Parallel (DDP) using Monarch\u2019s SPMDActor. The actor configures torch elastic environment variables and executes the training script, ..."
+      },
+      {
+        "title": "SPMD Job Example - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/ddp/spmd_job.html",
+        "content": "This example demonstrates how to use monarch.job.spmd( serve() and run_spmd()) to launch PyTorch DDP training. It shows single-node training with a local scheduler and multi-node training with slur..."
+      },
+      {
+        "title": "Debugging Python Actors with pdb in Monarch - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/debugging.html",
+        "content": "Monarch supports pdb debugging for python actor meshes. This guide demonstrates how to debug distributed actors using Python\u2019s built-in debugger with breakpoints, step-through debugging, and intera..."
+      },
+      {
+        "title": "Distributed Tensors in Monarch - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/distributed_tensors.html",
+        "content": "Meshes: All computation is done on a \u2018mesh\u2019 of devices. Here we create a mesh composed of the machine running the notebook: Without a mesh active, torch runs locally. Once active, torch runs on eve..."
+      },
+      {
+        "title": "Getting Started - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/getting_started.html",
+        "content": "This guide introduces the core concepts of Monarch, a framework for building multi-machine training programs using actors. We\u2019ll cover: Defining actors with endpoint functions, Spawning actors loca..."
+      },
+      {
+        "title": "Reinforcement Learning with Actors - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/grpo_actor.html",
+        "content": "This example demonstrates implementing a distributed PPO-like reinforcement learning algorithm using the Monarch actor framework. The implementation features: - Distributed actor architecture with ..."
+      },
+      {
+        "title": "GRPO with Tensor Engine and Actors - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/grpo_actor_te.html",
+        "content": "This example demonstrates using the Monarch tensor engine for distributed training within actors. The implementation shows how to use mesh.activate() inside actor endpoints for distributed tensor o..."
+      },
+      {
+        "title": "<no title> - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/grpo_forge_lib.html",
+        "content": "Mock actors and training loop for TorchForge GRPO simulation. This module provides lightweight mock implementations of TorchForge actors that can be used with Monarch\u2019s patch_actor mechanism to tes..."
+      },
+      {
+        "title": "<no title> - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/grpo_forge_sim.html",
+        "content": "Demo: Actor Mocking for TorchForge GRPO Training This example demonstrates how Monarch\u2019s patch_actor mechanism works with TorchForge\u2019s ForgeActor-based actors. The key insight is that patch_actor i..."
+      },
+      {
+        "title": "Simulation of GRPO without Tensor Engine - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/grpo_sim.html",
+        "content": "Demonstrates working with grpo_actor.py to show that GRPO can be simulated without real GPUs. Run with: Total running time of the script:(0 minutes 0.000 seconds) Download Python source code: grpo_..."
+      },
+      {
+        "title": "Simulation of GRPO with Tensor Engine - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/grpo_te_sim.html",
+        "content": "Demonstrates patch_tensor_engine working with grpo_actor_te.py to show that tensor engine can be simulated without real GPUs. Run with: Total running time of the script:(0 minutes 0.000 seconds) Do..."
+      },
+      {
+        "title": "Examples - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/index.html",
+        "content": "ping_pong.py: Demonstrates the basics of Monarch\u2019s Actor/endpoint API with a ping-pong communication example, crawler.py: Demonstrates Monarch\u2019s actor API and many-to-one communications with a web ..."
+      },
+      {
+        "title": "Monarch Actor API: Ping Pong - Monarch",
+        "url": "https://meta-pytorch.org/monarch/generated/examples/ping_pong.html",
+        "content": "This example demonstrates the basics of Monarch\u2019s Actor/endpoint API, which provides a generic interface for distributed computing. We\u2019ll cover: Creating and spawning actors in process meshes, Call..."
+      },
+      {
+        "title": "Monarch \ud83e\udd8b - Monarch",
+        "url": "https://meta-pytorch.org/monarch/index.html",
+        "content": "Monarch is a distributed programming framework for PyTorch based on scalable actor messaging. It provides: Remote actors with scalable messaging: Actors are grouped into collections called meshes a..."
+      },
+      {
+        "title": "Internal APIs - Monarch",
+        "url": "https://meta-pytorch.org/monarch/rust-api.html",
+        "content": "Internally monarch is implemented using a Rust library for actors called hyperactor. This book provides more details about its design. This page provides access to the Rust API documentation for Mo..."
+      },
+      {
+        "title": "SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007 - Monarch",
+        "url": "https://meta-pytorch.org/monarch/target/doc/static.files/SourceSerif4-LICENSE-a2cfd9d5.html",
+        "content": "Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \u2018Source\u2019. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries. Copyright 2014 ..."
+      }
+    ]
+  },
+  {
+    "id": "torchforge",
+    "title": "TorchForge",
+    "category": "RL",
+    "description": "A PyTorch-native agentic reinforcement learning library.",
+    "keywords": "agentic reinforcement learning agentic RL PyTorch native RL library RL algorithms sequential decision making agent-based",
+    "url": "https://meta-pytorch.org/torchforge/",
+    "pages": [
+      {
+        "title": "TorchForge Documentation",
+        "url": "https://meta-pytorch.org/torchforge/",
+        "content": "Documentation for TorchForge agentic RL library"
+      },
+      {
+        "title": "TorchForge GitHub",
+        "url": "https://github.com/meta-pytorch/torchforge",
+        "content": "Source code, issues, and contributions for TorchForge"
+      },
+      {
+        "title": "API Reference - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/api.html",
+        "content": ""
+      },
+      {
+        "title": "ForgeActor - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/api_actors.html",
+        "content": ""
+      },
+      {
+        "title": "Generator - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/api_generator.html",
+        "content": ""
+      },
+      {
+        "title": "Model - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/api_model.html",
+        "content": ""
+      },
+      {
+        "title": "Service - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/api_service.html",
+        "content": ""
+      },
+      {
+        "title": "Trainer - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/api_trainer.html",
+        "content": ""
+      },
+      {
+        "title": "Getting Started - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/getting_started.html",
+        "content": ""
+      },
+      {
+        "title": "TorchForge Documentation - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/index.html",
+        "content": ""
+      },
+      {
+        "title": "Metric Logging in Forge - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/metric_logging.html",
+        "content": ""
+      },
+      {
+        "title": "Tutorials - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/tutorials.html",
+        "content": ""
+      },
+      {
+        "title": "Part 1: RL Fundamentals - Using TorchForge Terminology - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/tutorials/zero-to-forge/1_RL_and_Forge_Fundamentals.html",
+        "content": ""
+      },
+      {
+        "title": "Part 2: Peeling Back the Abstraction - What Are Services? - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/tutorials/zero-to-forge/2_Forge_Internals.html",
+        "content": ""
+      },
+      {
+        "title": "Part 3: The TorchForge-Monarch Connection - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/tutorials/zero-to-forge/3_Monarch_101.html",
+        "content": ""
+      },
+      {
+        "title": "Zero to TorchForge: From RL Theory to Production-Scale Implementation - TorchForge",
+        "url": "https://meta-pytorch.org/torchforge/main/zero-to-forge-intro.html",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "id": "torchcomms",
+    "title": "TorchComms",
+    "category": "Distributed",
+    "description": "Communication primitives for distributed PyTorch training.",
+    "keywords": "torchcomms communication primitives distributed training split_group DeviceMesh AllGather AllToAll AllReduce NCCLX RCCL NCCL Gloo comms pool RDMA expandable segments A2Adedup one-sided communication GPU communication collective operations send receive Llama",
+    "url": "https://meta-pytorch.org/torchcomms/",
+    "pages": [
+      {
+        "title": "TorchComms Documentation",
+        "url": "https://meta-pytorch.org/torchcomms/",
+        "content": "API documentation and getting started guide for TorchComms"
+      },
+      {
+        "title": "TorchComms API Reference",
+        "url": "https://meta-pytorch.org/torchcomms/main/api.html",
+        "content": "TorchComms API reference, communication primitives, split_group, AllGather, AllToAll, AllReduce"
+      },
+      {
+        "title": "TorchComms Getting Started",
+        "url": "https://meta-pytorch.org/torchcomms/main/getting_started.html",
+        "content": "Getting started with TorchComms, installation, setup, usage examples"
+      },
+      {
+        "title": "TorchComms Blog Post",
+        "url": "https://pytorch.org/blog/torchcomms/",
+        "content": "Introducing TorchComms: next-generation communication primitives for PyTorch"
+      },
+      {
+        "title": "TorchComms GitHub",
+        "url": "https://github.com/meta-pytorch/torchcomms",
+        "content": "Source code, issues, and contributions for TorchComms"
+      },
+      {
+        "title": "torchcomms - meta-pytorch/torchcomms main",
+        "url": "https://meta-pytorch.org/torchcomms/main/index.html",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "id": "torchrec",
+    "title": "TorchRec",
+    "category": "Training",
+    "description": "Domain library for recommendation systems, including distributed embedding tables and data pipelining.",
+    "keywords": "recommendation systems distributed embedding tables embedding sharding model parallelism DMP DistributedModelParallel EmbeddingBagCollection EmbeddingCollection KeyedJaggedTensor KJT data pipelining DLRM sparse features FBGEMM sharding planner all2all pooled sequence embeddings TrainPipeline",
+    "url": "https://meta-pytorch.org/torchrec/",
+    "pages": [
+      {
+        "title": "TorchRec Documentation",
+        "url": "https://meta-pytorch.org/torchrec/",
+        "content": "Full documentation for TorchRec recommendation systems library"
+      },
+      {
+        "title": "TorchRec Introduction Tutorial",
+        "url": "https://pytorch.org/tutorials/intermediate/torchrec_intro_tutorial.html",
+        "content": "Introduction to TorchRec: distributed embeddings, KeyedJaggedTensor, DistributedModelParallel"
+      },
+      {
+        "title": "TorchRec Sharding Tutorial",
+        "url": "https://pytorch.org/tutorials/advanced/sharding.html",
+        "content": "Sharding strategies for embedding tables: table-wise, row-wise, column-wise"
+      },
+      {
+        "title": "TorchRec GitHub",
+        "url": "https://github.com/meta-pytorch/torchrec",
+        "content": "Source code, issues, and contributions for TorchRec"
+      }
+    ]
+  },
+  {
+    "id": "torchcodec",
+    "title": "TorchCodec",
+    "category": "Data",
+    "description": "Fast, hardware-accelerated video and audio decoding with native PyTorch tensor output.",
+    "keywords": "VideoDecoder AudioDecoder VideoEncoder video decoding audio decoding GPU video encoding CUDA video decoding hardware accelerated FFmpeg video tensor NVENC encoding streaming video decoding media processing video frames audio streams",
+    "url": "https://meta-pytorch.org/torchcodec/",
+    "pages": [
+      {
+        "title": "TorchCodec Documentation",
+        "url": "https://meta-pytorch.org/torchcodec/",
+        "content": "Full documentation for TorchCodec video and audio processing library"
+      },
+      {
+        "title": "TorchCodec GitHub",
+        "url": "https://github.com/meta-pytorch/torchcodec",
+        "content": "Source code, issues, and contributions for TorchCodec"
+      },
+      {
+        "title": "torchcodec.decoders - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/api_ref_decoders.html",
+        "content": ""
+      },
+      {
+        "title": "torchcodec.encoders - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/api_ref_encoders.html",
+        "content": ""
+      },
+      {
+        "title": "torchcodec.samplers - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/api_ref_samplers.html",
+        "content": ""
+      },
+      {
+        "title": "torchcodec - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/api_ref_torchcodec.html",
+        "content": ""
+      },
+      {
+        "title": "torchcodec.transforms - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/api_ref_transforms.html",
+        "content": ""
+      },
+      {
+        "title": "AudioSamples - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.AudioSamples.html",
+        "content": ""
+      },
+      {
+        "title": "Frame - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.Frame.html",
+        "content": ""
+      },
+      {
+        "title": "FrameBatch - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.FrameBatch.html",
+        "content": ""
+      },
+      {
+        "title": "AudioDecoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.decoders.AudioDecoder.html",
+        "content": ""
+      },
+      {
+        "title": "AudioStreamMetadata - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.decoders.AudioStreamMetadata.html",
+        "content": ""
+      },
+      {
+        "title": "CpuFallbackStatus - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.decoders.CpuFallbackStatus.html",
+        "content": ""
+      },
+      {
+        "title": "VideoDecoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.decoders.VideoDecoder.html",
+        "content": ""
+      },
+      {
+        "title": "VideoStreamMetadata - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.decoders.VideoStreamMetadata.html",
+        "content": ""
+      },
+      {
+        "title": "set_cuda_backend - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.decoders.set_cuda_backend.html",
+        "content": ""
+      },
+      {
+        "title": "AudioEncoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.encoders.AudioEncoder.html",
+        "content": ""
+      },
+      {
+        "title": "VideoEncoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.encoders.VideoEncoder.html",
+        "content": ""
+      },
+      {
+        "title": "clips_at_random_indices - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.samplers.clips_at_random_indices.html",
+        "content": ""
+      },
+      {
+        "title": "clips_at_random_timestamps - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.samplers.clips_at_random_timestamps.html",
+        "content": ""
+      },
+      {
+        "title": "clips_at_regular_indices - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.samplers.clips_at_regular_indices.html",
+        "content": ""
+      },
+      {
+        "title": "clips_at_regular_timestamps - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.samplers.clips_at_regular_timestamps.html",
+        "content": ""
+      },
+      {
+        "title": "CenterCrop - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.transforms.CenterCrop.html",
+        "content": ""
+      },
+      {
+        "title": "DecoderTransform - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.transforms.DecoderTransform.html",
+        "content": ""
+      },
+      {
+        "title": "RandomCrop - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.transforms.RandomCrop.html",
+        "content": ""
+      },
+      {
+        "title": "Resize - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated/torchcodec.transforms.Resize.html",
+        "content": ""
+      },
+      {
+        "title": "Exact vs Approximate seek mode: Performance and accuracy comparison - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/approximate_mode.html",
+        "content": ""
+      },
+      {
+        "title": "Decoding a video with VideoDecoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/basic_example.html",
+        "content": ""
+      },
+      {
+        "title": "Decoding with custom frame mappings - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/custom_frame_mappings.html",
+        "content": ""
+      },
+      {
+        "title": "Streaming data through file-like support - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/file_like.html",
+        "content": ""
+      },
+      {
+        "title": "Decoding - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/index.html",
+        "content": ""
+      },
+      {
+        "title": "Parallel video decoding: multi-processing and multi-threading - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/parallel_decoding.html",
+        "content": ""
+      },
+      {
+        "title": "TorchCodec Performance Tips and Best Practices - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/performance_tips.html",
+        "content": "Learn how to optimize TorchCodec video decoding performance with batch APIs, approximate seeking, multi-threading, and CUDA acceleration."
+      },
+      {
+        "title": "How to sample video clips - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/sampling.html",
+        "content": ""
+      },
+      {
+        "title": "Encoding - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/encoding/index.html",
+        "content": ""
+      },
+      {
+        "title": "Decoder Transforms: Applying transforms during decoding - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/transforms.html",
+        "content": "Learn how to apply transforms during video decoding for improved memory efficiency and performance."
+      },
+      {
+        "title": "Encoding audio samples with AudioEncoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/encoding/audio_encoding.html",
+        "content": ""
+      },
+      {
+        "title": "Decoding audio streams with AudioDecoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/audio_decoding.html",
+        "content": ""
+      },
+      {
+        "title": "Accelerated video decoding on GPUs with CUDA and NVDEC - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/decoding/basic_cuda_example.html",
+        "content": ""
+      },
+      {
+        "title": "Glossary - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/glossary.html",
+        "content": ""
+      },
+      {
+        "title": "Welcome to the TorchCodec documentation! - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/index.html",
+        "content": ""
+      },
+      {
+        "title": "Encoding video frames with VideoEncoder - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/encoding/video_encoding.html",
+        "content": ""
+      },
+      {
+        "title": "Interactive examples - TorchCodec +cu126",
+        "url": "https://meta-pytorch.org/torchcodec/stable/generated_examples/index.html",
+        "content": ""
+      }
+    ]
+  }
+]

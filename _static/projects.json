@@ -1,0 +1,56 @@
+[
+  {
+    "id": "openenv",
+    "title": "OpenEnv",
+    "repo": "OpenEnv",
+    "category": "RL",
+    "description": "An open spec and hub for reinforcement learning environments.",
+    "docs": "https://meta-pytorch.org/OpenEnv/",
+    "github": "https://github.com/meta-pytorch/OpenEnv"
+  },
+  {
+    "id": "monarch",
+    "title": "Monarch",
+    "repo": "monarch",
+    "category": "Distributed",
+    "description": "A distributed execution engine for PyTorch workloads.",
+    "docs": "https://meta-pytorch.org/monarch/",
+    "github": "https://github.com/meta-pytorch/monarch"
+  },
+  {
+    "id": "torchforge",
+    "title": "TorchForge",
+    "repo": "torchforge",
+    "category": "RL",
+    "description": "A PyTorch-native agentic reinforcement learning library.",
+    "docs": "https://meta-pytorch.org/torchforge/",
+    "github": "https://github.com/meta-pytorch/torchforge"
+  },
+  {
+    "id": "torchcomms",
+    "title": "TorchComms",
+    "repo": "torchcomms",
+    "category": "Distributed",
+    "description": "Communication primitives for distributed PyTorch training.",
+    "docs": "https://meta-pytorch.org/torchcomms/",
+    "github": "https://github.com/meta-pytorch/torchcomms"
+  },
+  {
+    "id": "torchrec",
+    "title": "TorchRec",
+    "repo": "torchrec",
+    "category": "Training",
+    "description": "Domain library for recommendation systems, including distributed embedding tables and data pipelining.",
+    "docs": "https://meta-pytorch.org/torchrec/",
+    "github": "https://github.com/meta-pytorch/torchrec"
+  },
+  {
+    "id": "torchcodec",
+    "title": "TorchCodec",
+    "repo": "torchcodec",
+    "category": "Data",
+    "description": "Fast, hardware-accelerated video and audio decoding with native PyTorch tensor output.",
+    "docs": "https://meta-pytorch.org/torchcodec/",
+    "github": "https://github.com/meta-pytorch/torchcodec"
+  }
+]

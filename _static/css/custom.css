@@ -1,0 +1,367 @@
+/* ---- Hero section (sits outside bd-container via template) ---- */
+.hero {
+  background: linear-gradient(135deg, #812CE5 0%, #B932CC 30%, #CC2F90 65%, #6b1850 100%);
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin: 0 0 0.75rem;
+  color: #fff !important;
+  border: none !important;
+}
+
+.hero-tagline {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 0 auto 1.25rem;
+  max-width: 600px;
+  opacity: 0.95;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  background: #fff;
+  color: #cc2f90 !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hero-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  text-decoration: none !important;
+}
+
+/* ---- Hero search bar ---- */
+.hero-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 540px;
+  margin: 1.5rem auto 0;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 0 1rem;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.hero-search:focus-within {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.hero-search > i {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  flex-shrink: 0;
+  transition: color 0.15s ease;
+}
+
+.hero-search:focus-within > i {
+  color: var(--pst-color-text-muted);
+}
+
+.hero-search input {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.75rem 0.6rem;
+  width: 100%;
+}
+
+.hero-search input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-search:focus-within input {
+  color: var(--pst-color-text-base);
+}
+
+.hero-search:focus-within input::placeholder {
+  color: var(--pst-color-text-muted);
+}
+
+/* Position the dropdown below the hero search bar */
+.hero-search .search-dropdown {
+  min-width: 100%;
+  left: 0;
+  right: 0;
+}
+
+/* Dark mode hero search */
+html[data-theme="dark"] .hero-search:focus-within {
+  background: rgba(30, 30, 30, 0.95);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Constrain content width on no-sidebar (landing) pages */
+.bd-sidebar-primary.hide-on-wide ~ .bd-main .bd-content .bd-article-container {
+  max-width: 1260px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hide the Sphinx-generated h1 since the hero has its own */
+.bd-article > section > h1 {
+  display: none;
+}
+
+/* ---- Section heading ---- */
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+
+/* ---- Project grid ---- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* 4 columns once the container is wide enough */
+@media (min-width: 960px) {
+  .project-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ---- Project card ---- */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--pst-color-border);
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+  color: var(--pst-color-primary);
+}
+
+.project-card p {
+  margin: 0 0 1rem 0;
+  font-size: 0.86rem;
+  color: var(--pst-color-text-muted);
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+/* ---- Category tag ---- */
+.category-tag {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+  color: var(--pst-color-text-muted);
+  background: transparent;
+  border: 1px solid var(--pst-color-border);
+}
+
+/* ---- Star count badge ---- */
+.star-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  color: var(--pst-color-text-muted);
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+
+.star-count i {
+  color: #f5a623;
+  font-size: 0.75rem;
+}
+
+/* ---- Project links ---- */
+.project-links {
+  display: flex;
+  gap: 1rem;
+  border-top: 1px solid var(--pst-color-border);
+  padding-top: 0.75rem;
+  margin-top: auto;
+}
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--pst-color-text-muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.project-links a:hover {
+  color: var(--pst-color-primary);
+  text-decoration: none;
+}
+
+.project-links a i {
+  font-size: 1rem;
+  transition: transform 0.15s ease;
+}
+
+.project-links a:hover i {
+  transform: scale(1.2);
+}
+
+/* ---- Dark mode ---- */
+html[data-theme="dark"] .hero {
+  background: linear-gradient(135deg, #5a1ea3 0%, #8a24a0 30%, #a32470 65%, #3d0e2e 100%);
+}
+
+html[data-theme="dark"] .hero-cta {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff !important;
+}
+
+/* ---- Search dropdown ---- */
+.search-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--pst-color-background);
+  border: 1px solid var(--pst-color-border);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10), 0 1px 4px rgba(0, 0, 0, 0.06);
+  z-index: 9999;
+  max-height: 420px;
+  overflow-y: auto;
+  margin-top: 6px;
+  min-width: 340px;
+  padding: 0.35rem 0;
+}
+
+.search-dropdown.show {
+  display: block;
+}
+
+.search-dropdown,
+.search-dropdown * {
+  text-align: left;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  padding: 0.55rem 0.9rem;
+  text-decoration: none !important;
+  transition: background 0.1s ease;
+  border-radius: 6px;
+  margin: 0 0.3rem;
+}
+
+.search-result-item:hover {
+  background: #f3f0ff;
+}
+
+.search-result-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: #f3f0ff;
+  color: #812CE5;
+  font-size: 0.75rem;
+  margin-top: 1px;
+}
+
+.search-result-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.search-result-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--pst-color-text-base);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-result-url {
+  font-size: 0.72rem;
+  color: var(--pst-color-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  margin-top: 1px;
+}
+
+.search-result-project {
+  display: none;
+}
+
+.search-no-results {
+  padding: 0.85rem 1rem;
+  font-size: 0.85rem;
+  color: var(--pst-color-text-muted);
+  text-align: center;
+}
+
+.search-google-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.8rem;
+  color: var(--pst-color-text-muted) !important;
+  text-decoration: none !important;
+  border-top: 1px solid var(--pst-color-border);
+  margin-top: 0.3rem;
+  transition: color 0.1s ease;
+}
+
+.search-google-fallback:hover {
+  color: var(--pst-color-text-base) !important;
+}
+
+/* Dark mode: only overrides that can't use theme variables */
+html[data-theme="dark"] .search-dropdown {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+html[data-theme="dark"] .search-result-item:hover {
+  background: #2e2640;
+}
+
+html[data-theme="dark"] .search-result-icon {
+  background: #2e2640;
+  color: #b38aff;
+}
