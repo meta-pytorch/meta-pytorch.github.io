@@ -79,11 +79,9 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Remove old files (keep .git and any manually added files in /extras)
-          find . -maxdepth 1 -not -name '.git' -not -name 'extras' -not -name '.' -not -name '..' -exec rm -rf {} +
-
-          # Move new build output to root
-          mv site-build/* .
+          # Sync new build output to root, removing old files
+          rsync -a --delete --exclude='.git' --exclude='README.md' site-build/ .
+          # Delete the site-build directory since we moved everything out of it above
           rm -rf site-build
 
           # Add .nojekyll to bypass Jekyll processing
@@ -93,4 +91,4 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A
           git commit -m "Deploy site from main@$(echo ${GITHUB_SHA} | cut -c1-7)" || true
-          git push
+          git push -f
