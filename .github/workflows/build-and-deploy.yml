@@ -80,7 +80,7 @@ jobs:
           set -euo pipefail
 
           # Sync new build output to root, removing old files
-          rsync -a --delete --exclude='.git' --exclude='README.md' site-build/ .
+          rsync -a --delete --exclude='.git' --exclude='README.md' --exclude='site-build' site-build/ .
           # Delete the site-build directory since we moved everything out of it above
           rm -rf site-build
 
