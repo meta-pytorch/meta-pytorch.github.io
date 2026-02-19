@@ -52,6 +52,7 @@ html_theme_options = {
 
 html_title = "Meta-PyTorch"
 html_static_path = ["_static"]
+html_extra_path = ["_html_extra"]
 html_css_files = ["css/custom.css"]
 html_show_sourcelink = False
 html_sidebars = {"**": []}
