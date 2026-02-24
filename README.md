@@ -58,12 +58,12 @@ projects.yaml                   ← SINGLE SOURCE OF TRUTH (edit this!)
 generate.py                     ← Reads YAML, crawls sitemaps, writes JSON
 Makefile                        ← Build orchestration
 requirements.txt                ← Python dependencies
-index.html                      ← Legacy redirect (GitHub Pages root)
-CNAME                           ← Custom domain for GitHub Pages
-404.html                        ← Custom 404 with project-aware redirects
 source/
 ├── conf.py                     ← Sphinx configuration
 ├── index.md                    ← Landing page content (Markdown)
+├── _html_extra/                ← Extra files that will get copied to build root
+│   ├── 404.html                ← Custom 404 with project-aware redirects
+│   └── CNAME                   ← Custom domain for GitHub Pages
 ├── _templates/
 │   ├── page.html               ← Custom template (hero banner for index page)
 │   └── search-field.html       ← Cross-project Lunr.js search component
