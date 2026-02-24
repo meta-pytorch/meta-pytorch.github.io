@@ -24,4 +24,4 @@ then come back here to explore the Meta-maintained libraries.
 All Meta-PyTorch projects are open source and welcome contributions. Visit a
 project's GitHub repository to file issues, submit pull requests, or join the
 discussion. For general contribution guidelines, see our
-[Contributing Guide](https://github.com/meta-pytorch/.github/blob/main/CONTRIBUTING.md).
+[Contributing Guide](https://github.com/pytorch/pytorch/wiki/The-Ultimate-Guide-to-PyTorch-Contributions).
