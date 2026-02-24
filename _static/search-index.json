@@ -423,9 +423,9 @@
         "content": "The#[hyperactor::export] macro turns a regular Actor implementation into a remotely spawnable actor, registering its type information, spawn function, and supported message handlers for discovery a..."
       },
       {
-        "title": "#[forward] - Monarch",
+        "title": "#[handle] - Monarch",
         "url": "https://meta-pytorch.org/monarch/books/hyperactor-book/src/macros/forward.html",
-        "content": "The#[hyperactor::forward] macro connects a user-defined handler trait implementation (like ShoppingListHandler) to the core Handler<T> trait required by the runtime. In short, it generates th..."
+        "content": "The#[hyperactor::handle] macro connects a user-defined handler trait implementation (like ShoppingListHandler) to the core Handler<T> trait required by the runtime. In short, it generates the..."
       },
       {
         "title": "#[derive(HandleClient)] - Monarch",
@@ -931,6 +931,11 @@
         "title": "TorchComms GitHub",
         "url": "https://github.com/meta-pytorch/torchcomms",
         "content": "Source code, issues, and contributions for TorchComms"
+      },
+      {
+        "title": "Hooks - meta-pytorch/torchcomms main",
+        "url": "https://meta-pytorch.org/torchcomms/main/hooks.html",
+        "content": ""
       },
       {
         "title": "torchcomms - meta-pytorch/torchcomms main",
