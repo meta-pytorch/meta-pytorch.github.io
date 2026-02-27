@@ -35,7 +35,6 @@ BASE_URL = "https://meta-pytorch.org"
 PROJECTS_YAML_PATH = "projects.yaml"
 SITEMAP_OUTPUT_PATH = "sitemap.xml"
 UNIFIED_SITEMAP_PATH = "sitemap-unified.xml"
-MAIN_SITEMAP_PATH = "sitemap-main.xml"
 
 # XML namespaces
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -78,17 +77,10 @@ def get_project_sitemap_url(project: dict) -> Optional[str]:
     return f"{docs_url}/sitemap.xml"
 
 
-def generate_sitemap_index(projects: list, include_main: bool = True) -> str:
+def generate_sitemap_index(projects: list) -> str:
     """Generate a sitemap index XML that references all project sitemaps."""
     root = ET.Element("sitemapindex", xmlns=SITEMAP_NS)
     today = datetime.now().strftime("%Y-%m-%d")
-
-    if include_main:
-        sitemap = ET.SubElement(root, "sitemap")
-        loc = ET.SubElement(sitemap, "loc")
-        loc.text = f"{BASE_URL}/{MAIN_SITEMAP_PATH}"
-        lastmod = ET.SubElement(sitemap, "lastmod")
-        lastmod.text = today
 
     for project in projects:
         sitemap_url = get_project_sitemap_url(project)
