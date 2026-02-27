@@ -80,6 +80,7 @@
   description: >-
     A PyTorch-native agentic reinforcement learning library.
   docs: https://meta-pytorch.org/torchforge/
+  sitemap: https://meta-pytorch.org/torchforge/main/sitemap.xml
   keywords: >-
     agentic reinforcement learning agentic RL PyTorch native RL library
     RL algorithms sequential decision making agent-based
@@ -98,6 +99,7 @@
   description: >-
     Communication primitives for distributed PyTorch training.
   docs: https://meta-pytorch.org/torchcomms/
+  sitemap: https://meta-pytorch.org/torchcomms/main/sitemap.xml
   keywords: >-
     torchcomms communication primitives distributed training split_group
     DeviceMesh AllGather AllToAll AllReduce NCCLX RCCL NCCL Gloo comms pool
@@ -128,6 +130,7 @@
     Domain library for recommendation systems, including distributed
     embedding tables and data pipelining.
   docs: https://meta-pytorch.org/torchrec/
+  sitemap: null  # TorchRec does not have a sitemap
   keywords: >-
     recommendation systems distributed embedding tables embedding sharding
     model parallelism DMP DistributedModelParallel EmbeddingBagCollection
@@ -156,6 +159,7 @@
     Fast, hardware-accelerated video and audio decoding with native
     PyTorch tensor output.
   docs: https://meta-pytorch.org/torchcodec/
+  sitemap: https://meta-pytorch.org/torchcodec/main/sitemap.xml
   keywords: >-
     VideoDecoder AudioDecoder VideoEncoder video decoding audio decoding
     GPU video encoding CUDA video decoding hardware accelerated FFmpeg

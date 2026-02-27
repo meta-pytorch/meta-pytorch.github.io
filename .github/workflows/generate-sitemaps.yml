@@ -1,0 +1,55 @@
+name: Generate Sitemaps
+
+on:
+  # Run when projects.yaml or the script changes
+  push:
+    branches:
+      - main
+    paths:
+      - 'projects.yaml'
+      - 'scripts/generate_sitemap.py'
+
+  # Run on a schedule (weekly on Sunday at midnight UTC)
+  schedule:
+    - cron: '0 0 * * 0'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      generate_unified:
+        description: 'Generate unified sitemap (includes all URLs from all projects)'
+        required: false
+        default: 'true'
+        type: boolean
+
+jobs:
+  generate-sitemaps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Generate sitemaps
+        run: |
+          if [ "${{ github.event.inputs.generate_unified }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
+            python scripts/generate_sitemap.py --unified
+          else
+            python scripts/generate_sitemap.py
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add sitemap.xml sitemap-unified.xml sitemap-main.xml 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Update sitemaps [skip ci]"
+          git push

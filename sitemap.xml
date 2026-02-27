@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://meta-pytorch.org/sitemap-main.xml</loc>
+    <lastmod>2026-02-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://meta-pytorch.org/OpenEnv/sitemap.xml</loc>
+    <lastmod>2026-02-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://meta-pytorch.org/monarch/sitemap.xml</loc>
+    <lastmod>2026-02-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://meta-pytorch.org/torchforge/main/sitemap.xml</loc>
+    <lastmod>2026-02-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://meta-pytorch.org/torchcomms/main/sitemap.xml</loc>
+    <lastmod>2026-02-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://meta-pytorch.org/torchcodec/main/sitemap.xml</loc>
+    <lastmod>2026-02-26</lastmod>
+  </sitemap>
+</sitemapindex>

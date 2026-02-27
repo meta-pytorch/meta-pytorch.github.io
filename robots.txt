@@ -1,0 +1,9 @@
+# Robots.txt for meta-pytorch.org
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://meta-pytorch.org/sitemap.xml
+Sitemap: https://meta-pytorch.org/sitemap-unified.xml
