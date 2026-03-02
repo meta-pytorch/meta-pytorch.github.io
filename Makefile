@@ -14,7 +14,7 @@ help:
 generate:
 	@SPHINXPY=$$(head -1 "$$(which $(SPHINXBUILD))" | sed 's/^#!//') && \
 	$$SPHINXPY generate.py && \
-	$$SPHINXPY scripts/generate_sitemap.py --unified
+	$$SPHINXPY scripts/generate_sitemap.py
 
 # Generate (offline, no sitemap crawling)
 generate-offline:

@@ -3,9 +3,9 @@
 Sitemap Generator for meta-pytorch.org
 
 This script generates a unified sitemap by:
-1. Reading projects from projects.json
+1. Reading projects from projects.yaml
 2. Fetching individual project sitemaps
-3. Generating a sitemap index (sitemap.xml) that references all project sitemaps
+3. Generating a single sitemap.xml with all URLs
 
 Can be run locally or via GitHub Actions.
 
@@ -13,7 +13,6 @@ Usage:
     python scripts/generate_sitemap.py
 
 Options:
-    --unified    Generate a single unified sitemap with all URLs (for LLMs)
     --validate   Only validate that all project sitemaps exist
 """
 
@@ -34,7 +33,6 @@ import yaml
 BASE_URL = "https://meta-pytorch.org"
 PROJECTS_YAML_PATH = "projects.yaml"
 SITEMAP_OUTPUT_PATH = "sitemap.xml"
-UNIFIED_SITEMAP_PATH = "sitemap-unified.xml"
 
 # XML namespaces
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -77,29 +75,8 @@ def get_project_sitemap_url(project: dict) -> Optional[str]:
     return f"{docs_url}/sitemap.xml"
 
 
-def generate_sitemap_index(projects: list) -> str:
-    """Generate a sitemap index XML that references all project sitemaps."""
-    root = ET.Element("sitemapindex", xmlns=SITEMAP_NS)
-    today = datetime.now().strftime("%Y-%m-%d")
-
-    for project in projects:
-        sitemap_url = get_project_sitemap_url(project)
-        if sitemap_url is None:
-            continue  # Skip projects without sitemaps
-        sitemap = ET.SubElement(root, "sitemap")
-        loc = ET.SubElement(sitemap, "loc")
-        loc.text = sitemap_url
-        lastmod = ET.SubElement(sitemap, "lastmod")
-        lastmod.text = today
-
-    return prettify_xml(root)
-
-
-def generate_unified_sitemap(projects: list) -> str:
-    """
-    Generate a unified sitemap with all URLs from all projects.
-    This is useful for LLMs that prefer a single comprehensive sitemap.
-    """
+def generate_sitemap(projects: list) -> str:
+    """Generate a unified sitemap with all URLs from all projects."""
     root = ET.Element("urlset", xmlns=SITEMAP_NS)
     today = datetime.now().strftime("%Y-%m-%d")
 
@@ -183,12 +160,7 @@ def validate_sitemaps(projects: list) -> bool:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate sitemaps for meta-pytorch.org"
-    )
-    parser.add_argument(
-        "--unified",
-        action="store_true",
-        help="Generate a unified sitemap with all URLs (for LLMs)",
+        description="Generate sitemap for meta-pytorch.org"
     )
     parser.add_argument(
         "--validate",
@@ -199,7 +171,7 @@ def main():
         "--output-dir",
         type=str,
         default=".",
-        help="Output directory for generated sitemaps",
+        help="Output directory for generated sitemap",
     )
 
     args = parser.parse_args()
@@ -226,22 +198,13 @@ def main():
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Generate sitemap index (always)
-    print("\nGenerating sitemap index...")
-    sitemap_index = generate_sitemap_index(projects)
+    # Generate sitemap
+    print("\nGenerating sitemap...")
+    sitemap = generate_sitemap(projects)
     sitemap_path = output_dir / SITEMAP_OUTPUT_PATH
     with open(sitemap_path, "w") as f:
-        f.write(sitemap_index)
-    print(f"Saved sitemap index to {sitemap_path}")
-
-    # Generate unified sitemap (if requested)
-    if args.unified:
-        print("\nGenerating unified sitemap...")
-        unified_sitemap = generate_unified_sitemap(projects)
-        unified_path = output_dir / UNIFIED_SITEMAP_PATH
-        with open(unified_path, "w") as f:
-            f.write(unified_sitemap)
-        print(f"Saved unified sitemap to {unified_path}")
+        f.write(sitemap)
+    print(f"Saved sitemap to {sitemap_path}")
 
     print("\nDone!")
 

@@ -12,4 +12,3 @@ source/_static/search-index.json
 
 # Generated at build time by generate_sitemap.py
 sitemap.xml
-sitemap-unified.xml

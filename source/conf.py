@@ -55,7 +55,6 @@ html_static_path = ["_static"]
 html_extra_path = [
     "_html_extra",
     "../sitemap.xml",
-    "../sitemap-unified.xml",
     "../robots.txt",
 ]
 html_css_files = ["css/custom.css"]
