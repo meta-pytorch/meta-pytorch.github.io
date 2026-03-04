@@ -34,9 +34,22 @@ BASE_URL = "https://meta-pytorch.org"
 PROJECTS_YAML_PATH = "projects.yaml"
 SITEMAP_OUTPUT_PATH = "sitemap.xml"
 
+# URL normalization: map alternative domains to canonical domain
+URL_REPLACEMENTS = {
+    "https://meta-pytorch.github.io": "https://meta-pytorch.org",
+}
+
 # XML namespaces
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ET.register_namespace("", SITEMAP_NS)
+
+
+def normalize_url(url: str) -> str:
+    """Normalize URL to use canonical domain."""
+    if url:
+        for old_domain, new_domain in URL_REPLACEMENTS.items():
+            url = url.replace(old_domain, new_domain)
+    return url
 
 
 def prettify_xml(elem: ET.Element) -> str:
@@ -98,7 +111,7 @@ def generate_sitemap(projects: list) -> str:
             # Project has no sitemap, just add the docs root URL
             url_elem = ET.SubElement(root, "url")
             loc = ET.SubElement(url_elem, "loc")
-            loc.text = project.get("docs", "").rstrip("/") + "/"
+            loc.text = normalize_url(project.get("docs", "").rstrip("/") + "/")
             lastmod = ET.SubElement(url_elem, "lastmod")
             lastmod.text = today
             priority = ET.SubElement(url_elem, "priority")
@@ -112,7 +125,7 @@ def generate_sitemap(projects: list) -> str:
             # If sitemap doesn't exist, at least add the docs root
             url_elem = ET.SubElement(root, "url")
             loc = ET.SubElement(url_elem, "loc")
-            loc.text = project.get("docs", "").rstrip("/") + "/"
+            loc.text = normalize_url(project.get("docs", "").rstrip("/") + "/")
             lastmod = ET.SubElement(url_elem, "lastmod")
             lastmod.text = today
             priority = ET.SubElement(url_elem, "priority")
@@ -127,7 +140,11 @@ def generate_sitemap(projects: list) -> str:
             for child in url_entry:
                 tag_name = child.tag.replace(f"{{{SITEMAP_NS}}}", "")
                 new_child = ET.SubElement(new_url, tag_name)
-                new_child.text = child.text
+                # Normalize URLs in <loc> elements to use canonical domain
+                if tag_name == "loc":
+                    new_child.text = normalize_url(child.text)
+                else:
+                    new_child.text = child.text
                 if tag_name == "lastmod":
                     has_lastmod = True
             # Add lastmod if not present in source sitemap
