@@ -36,26 +36,6 @@ jobs:
           name: site-build
           path: build/html
 
-  doc-preview:
-    runs-on: linux.2xlarge
-    needs: build-docs
-    if: ${{ github.event_name == 'pull_request' }}
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-build
-          path: build/html
-
-      - name: Upload docs preview
-        uses: seemethere/upload-artifact-s3@v5
-        with:
-          retention-days: 14
-          s3-bucket: doc-previews
-          if-no-files-found: error
-          path: build/html
-          s3-prefix: meta-pytorch/meta-pytorch.github.io/${{ github.event.pull_request.number }}
-
   deploy:
     runs-on: ubuntu-latest
     permissions:
